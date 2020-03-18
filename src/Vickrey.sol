@@ -182,10 +182,7 @@ contract Vickrey is Auction {
     }
 
     // __________TEST_________
-    // deploy
-    // "0","0x14723a09acff6d2a60dcdf7aa4aff308fddc160c","300","20","20","20"
-    // sha3 (200,200)
-    // 0x7510198a522c851a0b67730da9a13d723bf611f700df08bd27e3c8c42f9727d6
+    //To be used for testing only, use in a real-world scenario would compromise the validity of the auction.
     function _test_sha(uint price, uint nonce) public pure returns(bytes32){
         return sha256(abi.encodePacked(price, nonce));
     }
