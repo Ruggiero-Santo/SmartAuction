@@ -25,8 +25,11 @@ events = {
 # block_num: [{"type_event": "", "id_auction": 0}]
 }
 
+# In DApp folder is "build\\contracts" or
+# you can create the file through the deployment done directly with RemixIDE
 with open('PATH_TO\\AuctionHouse.json', 'r') as abi_definition:
     house_abi = json.load(abi_definition).get("abi", None)
+# we only need Vickrey because Dutch's events are the same 
 with open('PATH_TO\\Vickrey.json', 'r') as abi_definition:
     vikrey_abi = json.load(abi_definition).get("abi", None)
  
