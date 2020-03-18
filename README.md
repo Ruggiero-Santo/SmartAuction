@@ -9,4 +9,4 @@ The project has been organized in such a way as to have the single auctions as "
 Python script is the solution to the problem of the emission of the events that mark the various phases of the auctions, is an alternative of using solutions such as Ethereum Alarm Clock that is a bit expensive, this script plays the same function of EAC.\
 If neither is used, the only solution is to have events output when a function is called by a participant. This means charging the cost of the event to the participant and not having the certainty that the events are sent when the phase has actually started.
 
-The contracts has been actually used in the implementation of a Dapp in web3.js see [Dapp Rep](https://github.com/Ruggiero-Santo/DappAuction)
+The contracts has been actually used in the implementation of a Dapp in web3.js see [Dapp Rep](https://github.com/Ruggiero-Santo/DAppAuction)
